@@ -64,7 +64,7 @@
     "webpack-dev-server": "webpack serve"
   },
   "config": {
-    "backend_port": 8080,
+    "backend_port": 8315,
     "default_environment": "prod",
     "packaging": "jar"
   },
@@ -72,11 +72,14 @@
     "@fortawesome/fontawesome-svg-core": "6.5.2",
     "@fortawesome/free-solid-svg-icons": "6.5.2",
     "@fortawesome/react-fontawesome": "0.2.0",
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.6",
     "@reduxjs/toolkit": "2.2.3",
     "axios": "^1.6.8",
     "bootstrap": "5.3.3",
     "bootswatch": "5.3.3",
     "dayjs": "1.11.10",
+    "dotenv": "^16.4.5",
     "lodash": "4.17.21",
     "path-browserify": "1.0.1",
     "react": "18.2.0",
@@ -92,6 +95,7 @@
     "react-transition-group": "4.4.5",
     "reactstrap": "9.2.2",
     "redux": "5.0.1",
+    "three": "^0.164.1",
     "tslib": "2.6.2",
     "uuid": "9.0.1"
   },
